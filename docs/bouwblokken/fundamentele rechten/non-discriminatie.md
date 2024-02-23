@@ -9,6 +9,10 @@ summary: hier staat een korte samenvatting over dit onderwerp
 ## Waarom?
 Schrijf hier een tekst over wat [title] is en waarom dit belangrijk is voor een verantwoord gebruik van algoritmes bij overheidsorganisaties. 
 
+
+
+
+
 ## Levenscyclus
 Een overzicht van welke fasen van de levenscyclus relevant zijn voor dit bouwblok. 
 
@@ -94,5 +98,6 @@ Overzicht van welke rollen belangrijk zijn te betrekken bij dit bouwblok.
 * In alle gevallen moeten de selectiecriteria  binnen een risicoprofiel samen voldoende relevant en objectief (geschikt) zijn om op een effectieve wijze bij te dragen aan de verwezenlijking van het nagestreefde legitieme doel;
 * Het gebruik van ras of nationaliteit als selectiecriterium binnen een risicoprofiel moet daarnaast noodzakelijk zijn om het gewenste doel tebereiken.
 * Selectiebeslissingen moeten te allen tijde uitlegbaar zijn.
+  
 ## Mogelijke hulpmiddelen en methoden
 * [Fairness Handbook](https://amsterdamintelligence.com/resources/the-fairness-handbook)
