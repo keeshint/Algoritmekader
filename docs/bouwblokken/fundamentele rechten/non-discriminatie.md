@@ -7,23 +7,26 @@ summary: hier staat een korte samenvatting over dit onderwerp
     Het Algoritmekader is nog volop in ontwikkeling. Op deze plek willen we vooral aan de slag gaan op een open en transparante wijze. Het is dus niet definitief. Dat betekent dat er dingen opstaan die niet af zijn en soms zelfs fout. Mocht er iets niet kloppen, laat het ons weten via [GitHub](https://github.com/MinBZK/Algoritmekader).
 
 ## Waarom?
-Schrijf hier een tekst over wat [title] is en waarom dit belangrijk is voor een verantwoord gebruik van algoritmes bij overheidsorganisaties. 
+Hier is plek voor een algemene beschrijving van dit bouwblok. Neem hier in ieder geval op:
+
+- waar gaat dit bouwblok over
+- zijn er eventueel deelonderwerpen die behoren tot dit bouwblok? Zo ja welke? En verwijzen indien dit een aparte pagina betreft.
+- waarom is dit bouwblok belangrijk?
+- eventueel definities of toelichting van bepaalde begrippen die relevant zijn voor dit bouwblok
 
 
+## Data ten opzichte van de levenscyclus
 
-
-
-## Levenscyclus
-Een overzicht van welke fasen van de levenscyclus relevant zijn voor dit bouwblok. 
-
-- [x] Probleemanalyse
-- [x] Ontwerp
-- [x] Data verkenning en data preparatie
-- [x] Ontwikkelen
-- [x] Validatie  
-- [x] Implementatie
-- [x] Monitoren
-- [ ] Archiveren
+| **Fase levenscyclus**                                                                            |               **Relevant ja/nee**               | **Toelichting**                                                                                                                                                                                                                                          |
+|--------------------------------------------------------------------------------------------------|:-----------------------------------------------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Probleemanalyse](../../levenscyclus/probleemanalyse.md)                                         |                                                 |                                                                                                                                                                                                                                                          |
+| [Ontwerp](../../levenscyclus/ontwerp.md)                                                         | :material-check-bold:{ style="color: #4DB6AC" } |                                                                                                                                                                                                                                                          |
+| [Data verkennen en preparatie](../../levenscyclus/data%20verkenning%20en%20data%20preparatie.md) | :material-check-bold:{ style="color: #4DB6AC" } | De vraag is of dit voldoende plek is voor een toelichting. Hoe veel tekst willen we hier precies kwijt? Je kan hier best een tijdje doortypen, maar deze vorm van weergeven is misschien niet heel geschikt als je hier heel veel meer tekst kwijt wilt. |
+| [Ontwikkelen](../../levenscyclus/ontwikkelen.md)                                                 |                                                 |                                                                                                                                                                                                                                                          |
+| [Validatie](../../levenscyclus/validatie.md)                                                     |                                                 |                                                                                                                                                                                                                                                          |
+| [Implementatie](../../levenscyclus/implementatie.md)                                             | :material-check-bold:{ style="color: #4DB6AC" } |                                                                                                                                                                                                                                                          |
+| [Monitoren](../../levenscyclus/monitoren.md)                                                     | :material-check-bold:{ style="color: #4DB6AC" } |                                                                                                                                                                                                                                                          |
+| [Archiveren](../../levenscyclus/archiveren.md)                                                   | :material-check-bold:{ style="color: #4DB6AC" } |
 
 ## Normen
 
