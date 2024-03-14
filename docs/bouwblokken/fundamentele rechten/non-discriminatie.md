@@ -6,7 +6,28 @@ title: Non-discriminatie
 
     Het Algoritmekader is nog volop in ontwikkeling. Op deze plek willen we vooral aan de slag gaan op een open en transparante wijze. Het is dus niet definitief. Dat betekent dat er dingen opstaan die niet af zijn en soms zelfs fout. Mocht er iets niet kloppen, laat het ons weten via [GitHub](https://github.com/MinBZK/Algoritmekader).
 
-## Waarom?
+## Wat en waarom?
+Wanneer algoritmes ingezet worden om publieke taken uit te voeren, moeten we rekening houden met bias en eventuele discriminerende effecten daarvan. 
+In dit bouwblok van het algoritmekader werken we uit hoe dit kan ontstaan, en welke maatregelen er genomen kunnen worden om dit te voorkomen.
+
+De term *bias* heeft verschillende betekenissen afhankelijk van de context waarin het gebruikt wordt en de disciplines die daarbij betrokken zijn. 
+Vaak wordt er naar bias gekeken als een technisch concept, maar daarnaast omvat bias ook menselijke en systemische aspecten. 
+Om beter de verschillende betekennissen van het begip *bias* te begrijpen, maken we onderscheid in drie verschillende aspecten van bias, zoals die door [NIST, Towards a Standard for identifying and managing bias in artificial intelligence](https://www.nist.gov/publications/towards-standard-identifying-and-managing-bias-artificial-intelligence) zijn gedefinieerd:
+
+- statistische bias
+- systemische bias
+- menselijke bias 
+
+
+
+### Gebruikte definities
+| Term of begrip        | Definitie                                                                                                                                                                                   | Bron                                                                                                                                                                                      |
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| bias                  | systematisch verschil in behandeling van bepaalde objecten, mensen of groepen in vergelijking met andere.                                                                                   | [ISO/IEC TR 24027:2021 en](https://www.nen.nl/iso-iec-tr-24027-2021-en-289193) [^1]                                                                                                       |
+| directe discriminatie | de ongelijke behandeling van een persoon of groep personen ten opzichte van andere personen in een vergelijkbare situatie, op grond van een beschermd persoonskenmerk (discriminatiegrond). | [College voor de rechten van de mens, Discriminatie door risicoprofielen - een mensenrechtelijk toetsingskader](https://publicaties.mensenrechten.nl/publicatie/61a734e65d726f72c45f9dce) |
+
+[^1]: Hoewel het gebruik van de NEN-ISO-normen in het Algoritmekader auteursrechtelijk is beschermd, heeft het Nederlands Normalisatie Instituut (NEN) voor het gebruik in het Algoritmekader toestemming verleend. Zie nen.nl voor meer informatie over NEN en het gebruik van hun producten.
+
 Hier is plek voor een algemene beschrijving van dit bouwblok. Neem hier in ieder geval op:
 
 - waar gaat dit bouwblok over
@@ -14,10 +35,9 @@ Hier is plek voor een algemene beschrijving van dit bouwblok. Neem hier in ieder
 - waarom is dit bouwblok belangrijk?
 - eventueel definities of toelichting van bepaalde begrippen die relevant zijn voor dit bouwblok
 
-## Definities
 In deze sectie werken we relevante definities uit die horen bij het bouwblok bias en non-discriminatie. Dat betekent dat we eerst een overzicht maken van bestaande definities, waarna we per begrip een besluit nemen welke defintie we zullen gebruiken in het algoritmekader. 
 
-### Bias 
+#### Bias 
 
 De term **bias** wordt in veel verschillende contexten en disciplines gebruikt en kan daardoor ook verschillende betekenissen hebben. Als eerste zoeken we naar een definitie van bias zoals die in algoritmische context bedoeld en gebruikt wordt. 
 
@@ -30,10 +50,14 @@ De term **bias** wordt in veel verschillende contexten en disciplines gebruikt e
  
 De [ISO standaard 22989]() schrijft het volgende over **bias** en **fairness**:
 
-In AI, the term bias refers to the idea that different cases call for different treatment. In this sense, bias is that which allows machine learning systems to judge that one situation is different from another and to behave differently accordingly. 
+In AI, the term bias refers to the idea that different cases call for different treatment. 
+In this sense, bias is that which allows machine learning systems to judge that one situation is different from another and to behave differently accordingly. 
 As such, bias is fundamental to the machine learning process and to adapting behaviour to the particular situation at hand.
-In social context, however, the term bias often refers to the notion that certain differences in treatment are unfair. To avoid confusion, in the context of AI, instead of bias, the term unfairness is used to refer to unjustified differential treatment that preferentially benefits certain groups more than others. Unfair AI system behaviour can lead to disrespect of established facts, beliefs and norms, leading to favouritism or discrimination.
-While certain bias is essential for proper AI system operation, unwanted bias can be introduced into an AI system unintentionally and can lead to unfair system results. Sources of unwanted bias in AI systems are interrelated and include human cognitive bias, data bias and bias introduced by engineering decisions. Bias in training data is major source of bias in AI systems. Human cognitive biases can affect decisions about data collection and processing, system design, model training and other development decisions.
+In social context, however, the term bias often refers to the notion that certain differences in treatment are unfair.
+To avoid confusion, in the context of AI, instead of bias, the term unfairness is used to refer to unjustified differential treatment that preferentially benefits certain groups more than others.
+Unfair AI system behaviour can lead to disrespect of established facts, beliefs and norms, leading to favouritism or discrimination.
+While certain bias is essential for proper AI system operation, unwanted bias can be introduced into an AI system unintentionally and can lead to unfair system results. 
+Sources of unwanted bias in AI systems are interrelated and include human cognitive bias, data bias and bias introduced by engineering decisions. Bias in training data is major source of bias in AI systems. Human cognitive biases can affect decisions about data collection and processing, system design, model training and other development decisions.
 
 > Hoe vertalen we bias? Willen we dit vertalen? Vooringenomenheid, vertekening? 
 
@@ -70,15 +94,15 @@ Vervolgens specificeren we verschillende vormen van bias:
 | met een vooroordeel, partijdig | [Van Dale](https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/vooringenomen) |           |
 |  
 
-### Discriminatie
+#### Discriminatie
 
-#### Directe discriminatie
+##### Directe discriminatie
 | Definitie                                                                                                                                                                                  | Bron                                                                                                                                                                                    | Opmerking |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
 | De ongelijke behandeling van een persoon of groep personen ten opzichte van andere personen in een vergelijkbare situatie, op grond van een beschermd persoonskenmerk (discriminatiegrond) | [College voor de rechten van de mens, Discriminatie door risicoprofielen - een mensenrechtelijk toetsingskader](https://publicaties.mensenrechten.nl/publicatie/61a734e65d726f72c45f9dce) |           |
 | takes place when a person receives less favourable treatment than another in a comparable situation, based on a protected ground                                                           | [European Union Agency for Fundamental Rights - bias in algorithms](http://fra.europa.eu/sites/default/files/fra_uploads/fra-2022-bias-in-algorithms_en.pdf)                            | NL vertaling door DeepL: "vindt plaats wanneer een persoon een minder gunstige behandeling krijgt dan een ander in een vergelijkbare situatie, op basis van een beschermde grond"          |
 
-#### Indirecte discriminatie
+##### Indirecte discriminatie
 | Definitie                                                                                                                                                                                                                                                             | Bron                                                                                                                                                                                    | Opmerking |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|
 | Wanneer een ogenschijnlijk neutrale bepaling, maatstaf of handelwijze personen met een bepaald beschermd persoonskenmerk (discriminatiegrond) in vergelijking met andere personen in het bijzonder benadeelt, tenzij hiervoor een objectieve rechtvaardiging bestaat. | [College voor de rechten van de mens, Discriminatie door risicoprofielen - een mensenrechtelijk toetsingskader](https://publicaties.mensenrechten.nl/publicatie/61a734e65d726f72c45f9dce) |
