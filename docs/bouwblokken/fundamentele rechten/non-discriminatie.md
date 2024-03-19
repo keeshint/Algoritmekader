@@ -50,9 +50,11 @@ Een eventueel systematisch verschil in behandeling van bepaalde groepen is in so
 Immers, verschillende gevallen vragen soms om verschillende behandelingen, en in veel gevallen worden algoritmes en AI juist ingezet om te oordelen in welke gevallen een situatie anders is. 
 In deze gevallen zal er altijd na moeten worden gegaan of er sprake is van een objectieve rechtvaardiging.
 
-In de context van algoritmes en AI wordt de term *unfairness* gebruikt wanneer er sprake is van een ongerechtvaardigd onderscheid die bepaalde groepen meer bevoordeelt dan andere. 
+In de context van algoritmes en AI wordt de term *unfairness* gebruikt wanneer er sprake is van een ongerechtvaardigd onderscheid die bepaalde groepen meer bevoordeelt dan andere [^5]. 
 In de Nederlandse taal spreken we dan van oneerlijkheid of onrechtvaardigheid (of in positieve zin van respectievelijk fairness, eerlijkheid en rechtvaardigheid). 
 Oneerlijk gedrag van algoritmes en AI-systemen kunnen leiden tot het niet naleven van gevestigde overtuigingen en normen, wat voorkeursbehandeling en discriminatie in de hand kan werken. 
+
+[^5]: Zie [NEN-EN-ISO/IEC 22989:2023 en](https://www.nen.nl/nen-en-iso-iec-22989-2023-en-312642) [^3] 
 
 Ongerechtvaardigde algoritmische bias is vaak een gevolg van bepaalde processen of systemen die gebruikt worden op zo'n wijze dat bepaalde groepen bevoordeeld worden en andere groepen benadeeld worden.
 Dit is vaak geen bewuste vorm van vooringenomenheid, maar kan bijvoorbeeld ontstaan doordat de meerderheid bestaande regels of normen volgt.
