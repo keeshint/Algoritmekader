@@ -132,14 +132,6 @@ De [AVG](https://www.autoriteitpersoonsgegevens.nl/themas/basis-avg/privacy-en-p
 - genetische gegevens;
 - biometrische gegevens (bedoeld voor de unieke identificatie van een persoon).
 
-#### Gevoelige persoonsgegevens
-De [AVG](https://www.autoriteitpersoonsgegevens.nl/themas/basis-avg/privacy-en-persoonsgegevens/wat-zijn-persoonsgegevens) beschouwt de volgende gegevens als privacygevoelig:
-
-- gegevens over elektronische communicatie;
-- locatiegegevens;
-- financiële gegevens (zoals inkomen of koopgedrag);
-- het burgerservicenummer (BSN).
-
 #### Beschermde persoonsgegevens
 
 [The fairness handbook](https://openresearch.amsterdam/en/media/inline/2022/7/14/fairness_handbook.pdf)  definieert de volgende lijst van beschermde persoonsgegevens (protected attributes):
